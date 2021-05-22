@@ -10,7 +10,7 @@ import {
 } from "../../styles/customStyles";
 import { Row, Column } from "../../styles/MaterialStyles";
 
-function Footer(props: { isPrimary: boolean }) {
+function Footer(props: { isPrimary?: boolean }) {
   let { changeCursorType } = useCursorAction();
 
   return (

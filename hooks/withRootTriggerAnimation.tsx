@@ -6,7 +6,7 @@ import { useAnimation } from "framer-motion";
 import { Section } from "../styles/MaterialStyles";
 
 function withRootTriggerAnimation(
-  ComponentToWrap: React.FC,
+  ComponentToWrap: React.FC<{ isPrimary?: boolean }>,
   rootMargin: string
 ) {
   function AnimatedComponent(props: any) {
