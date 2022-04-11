@@ -17,7 +17,7 @@ function Footer(props: { isPrimary?: boolean }) {
     <BoxContainer fluid={false}>
       <Row noHeight>
         <Column noWidth>
-          <Link href="https://www.fiverr.com/mr_goverdhan" passHref>
+          <Link href="" passHref>
             <NavFooterLink
               isPrimary={props.isPrimary}
               target="_blank"
