@@ -28,11 +28,11 @@ function Footer(props: { isPrimary?: boolean }) {
                 changeCursorType(props.isPrimary ? "NORMAL" : "TEXTED");
               }}
             >
-              mr_goverdhan@fiverr.com
+              mr_goverdhan
             </NavFooterLink>
           </Link>
           <NavFooterText isPrimary={props.isPrimary}>
-            Say Hey on fiverr
+            Say Hey
           </NavFooterText>
         </Column>
         <Link
